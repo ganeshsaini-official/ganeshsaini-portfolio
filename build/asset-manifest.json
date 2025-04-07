@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ganeshsaini-portfolio/static/css/main.2c5492a6.css",
+    "main.js": "/ganeshsaini-portfolio/static/js/main.e687c7c6.js",
+    "index.html": "/ganeshsaini-portfolio/index.html",
+    "main.2c5492a6.css.map": "/ganeshsaini-portfolio/static/css/main.2c5492a6.css.map",
+    "main.e687c7c6.js.map": "/ganeshsaini-portfolio/static/js/main.e687c7c6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2c5492a6.css",
+    "static/js/main.e687c7c6.js"
+  ]
+}
