@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/weather-app/static/css/main.b2e71356.css",
-    "main.js": "/weather-app/static/js/main.8beea750.js",
-    "index.html": "/weather-app/index.html",
-    "main.b2e71356.css.map": "/weather-app/static/css/main.b2e71356.css.map",
-    "main.8beea750.js.map": "/weather-app/static/js/main.8beea750.js.map"
+    "main.css": "/ganeshsaini-portfolio/static/css/main.b2e71356.css",
+    "main.js": "/ganeshsaini-portfolio/static/js/main.8beea750.js",
+    "index.html": "/ganeshsaini-portfolio/index.html",
+    "main.b2e71356.css.map": "/ganeshsaini-portfolio/static/css/main.b2e71356.css.map",
+    "main.8beea750.js.map": "/ganeshsaini-portfolio/static/js/main.8beea750.js.map"
   },
   "entrypoints": [
     "static/css/main.b2e71356.css",
