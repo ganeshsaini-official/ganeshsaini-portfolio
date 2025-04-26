@@ -10,7 +10,6 @@ export default function Portfolio() {
   const [darkMode, setDarkMode] = useState(true);
   const toggleDarkMode = () => setDarkMode(!darkMode);
 
-  // ✅ Apply `.dark` class on <html> element
   useEffect(() => {
     if (darkMode) {
       document.documentElement.classList.add("dark");
@@ -21,12 +20,9 @@ export default function Portfolio() {
 
   return (
     <main className="min-h-screen transition-all duration-500 bg-white text-gray-900 dark:bg-gray-900 dark:text-white">
-      {/* Navbar */}
       <Navbar darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
 
-      {/* Padding Top to avoid content under navbar */}
       <div className="pt-20 px-4">
-        {/* Hero Section */}
         <section className="text-center py-20">
           <motion.h1
             className="text-5xl font-bold"
@@ -39,12 +35,11 @@ export default function Portfolio() {
           <p className="mt-4 text-xl text-gray-400">
             Front-End Developer | React
           </p>
-          <a href="./ganeshresume.pdf" download>
+          <a href="./GaneshResume.pdf" download>
             <Button className="mt-6">Download Resume</Button>
           </a>
         </section>
 
-        {/* About Section */}
         <section id="about" className="py-16 max-w-4xl mx-auto text-center">
           <motion.h2
             className="text-3xl font-semibold mb-6"
@@ -59,7 +54,6 @@ export default function Portfolio() {
           </p>
         </section>
 
-        {/* Skills Section */}
         <section id="skills" className="py-10">
           <h2 className="text-3xl font-semibold mb-6 text-center">Skills</h2>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
@@ -83,18 +77,23 @@ export default function Portfolio() {
           </div>
         </section>
 
-        {/* Projects Section */}
         <section id="projects" className="py-10">
           <h2 className="text-3xl font-semibold mb-6 text-center">Projects</h2>
           <div className="grid md:grid-cols-2 gap-6">
             <Card className="p-4 bg-gray-100 dark:bg-gray-800">
-              <h3 className="text-xl font-bold">Vegetable Store</h3>
+              <h3 className="text-xl font-bold">Spotify Clone</h3>
               <p className="text-gray-400">
-                React based sabzi shop UI with categories and filters.
+              Just built a **Spotify Clone** as a personal project while learning HTML,CSS Or JavaScript!
               </p>
-              <Button variant="secondary" className="mt-2">
+            <a href="https://ganeshsaini-official.github.io/spotify-clone/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >
+               <Button variant="secondary" className="mt-2">
                 View Live
               </Button>
+            </a>
+           
             </Card>
 
             <Card className="p-4 bg-gray-100 dark:bg-gray-800">
@@ -115,11 +114,7 @@ export default function Portfolio() {
           </div>
         </section>
 
-        {/* Achievements Section */}
-        <section
-          id="achievements"
-          className="py-16 max-w-4xl mx-auto text-center"
-        >
+        <section id="achievements" className="py-16 max-w-4xl mx-auto text-center">
           <motion.h2
             className="text-3xl font-semibold mb-6"
             initial={{ opacity: 0, y: 50 }}
@@ -130,9 +125,9 @@ export default function Portfolio() {
           </motion.h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
             <Card className="p-6 bg-gray-100 dark:bg-gray-800">
-              <h3 className="text-xl font-bold mb-2">Salesforce Intern</h3>
+              <h3 className="text-xl font-bold mb-2">Salesforce Workshop</h3>
               <p className="text-gray-400">
-                Selected for Salesforce internship starting 13 April 2025.
+              I’ve successfully completed a Salesforce Workshop organized by Learn with Softshala from 13th April to 15th April 2025.
               </p>
             </Card>
             <Card className="p-6 bg-gray-100 dark:bg-gray-800">
@@ -144,12 +139,7 @@ export default function Portfolio() {
           </div>
         </section>
 
-        {/* Testimonials Section */}
-              {/* Contact Section */}
-        <section
-          id="contact"
-          className="scroll-mt-24 py-16 max-w-2xl mx-auto text-center"
-        >
+        <section id="contact" className="scroll-mt-24 py-16 max-w-2xl mx-auto text-center">
           <motion.h2
             className="text-3xl font-semibold mb-6"
             initial={{ opacity: 0, y: 50 }}
@@ -192,7 +182,6 @@ export default function Portfolio() {
           </form>
         </section>
 
-        {/* Footer */}
         <Footer darkMode={darkMode} />
       </div>
 
